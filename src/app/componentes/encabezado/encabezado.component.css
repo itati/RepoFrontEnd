@@ -1,0 +1,101 @@
+#profile-background img {
+    width: 100%;
+    border-radius: 0.8em 0.8em 0 0;
+}
+
+#first-card {
+    border-radius: 0.8em 0.8em 0.4em 0.4em;
+    /**height: 55vh;*/
+}
+
+#profile-background {
+    object-fit: none !important;
+}
+
+#info {
+    min-height: 22vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#info img {
+    border: 5px solid #ffffff;
+}
+
+#info-data h1 {
+    font-size: 1.7rem;
+}
+
+#info-img {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+#name-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#info-details img {
+    width: 100%;
+}
+
+#info-details h2 {
+    font-size: 1.4vh;
+}
+
+#info-actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-info-actions {
+    margin-right: 8px;
+}
+
+.contenedor-backg {
+    height: 21vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.exp-img {
+    object-fit: none !important;
+    height: 100%;
+    width: 100%;
+}
+
+.exp-img-box {
+    overflow: hidden;
+    height: 5vh;
+    width: 5vh;
+}
+
+.exp {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Botón propio
+-------------------------------------------------- */
+
+
+/* Redefine los estilos de .btn */
+
+
+/* Modificar el texto y el color de fondo en los tres estados
+   principales del botón: default, hover y active. */
+
+.btn-cus {
+    color: #eeaed0;
+    border-color: #eeaed0;
+}

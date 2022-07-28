@@ -1,0 +1,70 @@
+/*mis colores:
+claro #EEAED0
+fuccia #F24094
+*/
+
+* {
+    color: white;
+}
+
+.navbar {
+    background-color: #eeaed0;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.withe-icon {
+    /* height: 2em;*/
+    max-height: 5em;
+    padding-right: 2rem;
+}
+
+.barra-sup {
+    background-color: #EEAED0;
+    justify-content: space-between;
+    align-items: center
+}
+
+#user-menu {
+    margin-left: -99%;
+}
+
+.dropdown-menu {
+    background-color: #EEAED0;
+}
+
+.dropdown-menu>li {
+    background-color: #EEAED0;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #F24094;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
+}
+
+.nav-right i {
+    padding: 10px;
+}
+
+.btn-right {
+    font-size: 1.5rem;
+}
+
+#navbar-rrss {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+}
+
+#navbar-user {
+    padding-left: 2rem;
+}

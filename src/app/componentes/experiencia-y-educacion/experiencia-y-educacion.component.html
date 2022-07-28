@@ -1,0 +1,30 @@
+<div>
+    <ul class="items-list">
+        <li *ngFor="let educacion of educacionList">
+            <div class="data-container">
+                <div class="row my-exp">
+                    <div class="img-and-title col-2">
+                        <div class="my-exp-img-box">
+                            <img class="my-exp-img" [src]="educacion.img" alt="">
+                        </div>
+                        <p class="exp-name">{{educacion.title}}</p>
+                    </div>
+
+                    <div class="exp-description col-10">
+                        <div>
+                            <p>{{educacion.school}} ・ {{educacion.career}}</p>
+                        </div>
+                        <div>
+                            <p>{{educacion.score}}</p>
+                        </div>
+                        <div>
+                            <p><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- </a> -->
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,39 @@
+.my-exp>p {
+    font-size: 8rem;
+}
+
+.img-and-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-exp-img-box {
+    overflow: hidden;
+}
+
+.my-exp-img {
+    max-height: 8vh;
+    max-width: 8vh;
+}
+
+.exp-name {
+    font-size: 1.8vh;
+}
+
+.items-list>li {
+    margin-top: 1vh;
+}
+
+.exp-description {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1vh;
+    flex-direction: column;
+}
+
+.exp-description>p {
+    margin-left: 3vh;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}

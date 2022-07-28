@@ -1,0 +1,66 @@
+{
+    "name": "Maria Itati Gonano",
+    "backImage": "https://fondosmil.com/fondo/17010.jpg",
+    "image": "https://fondosmil.com/fondo/16217.jpg",
+    "position": "Developer / Estudiante ISI",
+    "company": {
+        "name": "none",
+        "img": "#",
+        "url": "#"
+    },
+    "school": {
+        "name": "UNAM",
+        "img": "#",
+        "url": "#"
+    },
+    "ubicacion": "Rosario (Argentina)",
+    "about": "I'm passionate about technology, I always try to train myself and find out about new technologies.",
+    "experience": [{
+            "position": "Backend Developer 1",
+            "company": "Pixar 1",
+            "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQGKOBMU9RENBg/company-logo_200_200/0/1537812891687?e=1666828800&v=beta&t=oV_yf45KL_K55j5F2Q1kFNtSyX8BwxR0USRB7awQJVY",
+            "mode": "Jornada parcial",
+            "start": "mar 2019",
+            "end": "actualidad",
+            "timeElapsed": "2 años y 6 meses"
+        },
+        {
+            "position": "Backend Developer 2",
+            "company": "Pixar 2",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2azlXbKkUpUXmzn8lEe_brQ0oaFRJOSlCGw&usqp=CAU",
+            "mode": "Jornada parcial",
+            "start": "mar 2019",
+            "end": "actualidad",
+            "timeElapsed": "2 años y 6 meses"
+        },
+        {
+            "position": "Backend Developer 3",
+            "company": "Pixar 3",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2azlXbKkUpUXmzn8lEe_brQ0oaFRJOSlCGw&usqp=CAU",
+            "mode": "Jornada parcial",
+            "start": "mar 2019",
+            "end": "actualidad",
+            "timeElapsed": "2 años y 6 meses"
+        }
+    ],
+    "educacion": [{
+            "school": "UNAM",
+            "title": "Lic",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2azlXbKkUpUXmzn8lEe_brQ0oaFRJOSlCGw&usqp=CAU",
+            "career": "Sistemas de Información",
+            "score": 0,
+            "start": "2011",
+            "end": "2013"
+        },
+        {
+            "school": "UTN",
+            "title": "Ingeniería",
+            "img": "#",
+            "career": "Sistemas de Información",
+            "score": 0,
+            "start": "2022",
+            "end": "2025"
+        }
+    ]
+
+}

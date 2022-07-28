@@ -1,0 +1,27 @@
+<div>
+    <ul class="items-list">
+        <li *ngFor="let experience of expLabList">
+            <div class="data-container">
+                <div class="row my-exp">
+                    <div class="img-and-title col-2">
+                        <div class="my-exp-img-box">
+                            <img class="exp-img" [src]="experience.img" alt="">
+                        </div>
+                        <p class="exp-name">{{experience.company}}</p>
+                    </div>
+
+                    <div class="exp-description col-10">
+                        <div>
+                            <p>{{experience.position}} ・ {{experience.mode}}</p>
+                        </div>
+                        <div>
+                            <p><time>{{experience.start}}</time> - <time>{{experience.end}}</time> ・ {{experience.timeElapsed}}</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- </a> -->
+        </li>
+    </ul>
+</div>

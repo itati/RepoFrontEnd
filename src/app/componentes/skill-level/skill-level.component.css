@@ -1,0 +1,8 @@
+.progress {
+    margin-bottom: 20px;
+}
+
+.st-habilidad {
+    display: flex;
+    justify-content: space-between;
+}

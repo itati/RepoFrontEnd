@@ -1,0 +1,9 @@
+.c-group {
+    margin-top: 8vh;
+    margin-bottom: 60vh;
+    color: #ffffff;
+}
+
+.c-group>h1 {
+    color: #ec76b4;
+}

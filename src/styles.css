@@ -1,1 +1,70 @@
-/* You can add global styles to this file, and also import other style files */
+.c-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-group-item {
+    width: 100%;
+}
+
+body {
+    background-color: #eeaed0;
+    background-image: linear-gradient(#ffffff4a, #ec76b4);
+}
+
+.mat-card {
+    border-radius: 0.4em;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color: blueviolet;
+}
+
+.mat-card#first-card {
+    padding: 0;
+}
+
+div#profile-backgground {
+    display: flex;
+    z-index: 1;
+}
+
+div#profile-backgground img {
+    width: 100%;
+    border-radius: 32px 32px 0 0;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px;
+    z-index: 1;
+}
+
+div#info-actions {
+    display: flex;
+}
+
+.navbar {
+    background-color: #ced4da;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.editar-perfil {
+    display: none;
+}
+
+.mat-card ul {
+    padding-left: 0rem !important;
+}
+
+.sections-titles {
+    font-size: 1.7rem;
+}

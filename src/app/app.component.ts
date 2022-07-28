@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PortfolioService } from './servicios/portfolio.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'INICIALAPP';
-}
+  headershow: any;
+  isLogin:boolean=false;
+  constructor(private datosPortfolio:PortfolioService) { }
+
+  ngOnInit(): void {
+
+    };
+  }
